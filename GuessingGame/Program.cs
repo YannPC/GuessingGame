@@ -3,7 +3,9 @@
 
 using GuessingGame;
 Game game = new Game();
+// use to count the number of attempts
 int numberOfGuesses = 0;
+// use to display to message
 string result = "";
 
 // Game Started
