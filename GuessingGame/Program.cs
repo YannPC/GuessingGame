@@ -6,7 +6,9 @@ Game game = new Game();
 int numberOfGuesses = 0;
 string result = "";
 
+// Game Started
 Console.WriteLine("Hello Gamer!");
+// asking Gamer name 
 Console.WriteLine("What's your name Gamer");
 
 string gamerName = Console.ReadLine()!;
