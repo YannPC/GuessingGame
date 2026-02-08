@@ -19,8 +19,6 @@ namespace GuessingGame
             _secretNumber = generateRandomNumber.Next(1, 15);
         }
 
-
-
         /*
           Add a method CheckGuess(int guess) that returns:  "low" if guess is too low
         , "high" if guess is too high, and "correct" if guess is correct.
@@ -42,9 +40,6 @@ namespace GuessingGame
             }
 
         }
-
-
-
 
     }
 }

@@ -38,8 +38,7 @@ while (result != "correct")
     else if (result == "high")
     {
         Console.WriteLine("Your guess is too high. Try again!");
-    }
-     
+    }    
 }
     Console.WriteLine($"Congratulations {gamerName}! You've guessed the secret number in {numberOfGuesses} guesses!");
 
